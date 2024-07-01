@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: "http://204.197.243.138/",
+    origin: "https://www.tarothealerrashmiravi.com",
     credentials: true,
 }));
 app.use(bodyParser.json());  
